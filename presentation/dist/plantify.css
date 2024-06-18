@@ -1,0 +1,96 @@
+.main_img {
+  max-width: 250px !important;
+  object-fit: cover;
+}
+
+.team_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.team_member_wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.general_memder_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.contributions_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+
+.team_member_wrapper h4 {
+  font-size: 34px;
+}
+
+.team_member_wrapper li {
+  font-size: 30px;
+}
+
+.team_img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  align-self: center;
+  object-fit: cover;
+}
+
+.slide_img {
+  align-self: center;
+  object-fit: cover;
+}
+
+.task_img {
+  max-width: 400px !important;
+}
+
+.analytics_img {
+  max-width: 500px !important;
+}
+
+.platforms_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.discord_img {
+  max-width: 400px !important;
+}
+
+.pr_img {
+  max-width: 600px !important;
+}
+
+.pr_wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pr_img_small {
+  max-width: 420px !important;
+}
+
+.technology_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.libraries {
+  align-self: flex-end;
+}
+
+
